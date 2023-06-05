@@ -1,10 +1,11 @@
 import React from 'react'
-import Card from './components/Card/Card'
+import './App.css'
+import UserPage from './Pages/UserPage/UserPage'
 
 export default function App() {
   return (
-    <div>
-      <Card />
+    <div className='app'>
+      <UserPage />
     </div>
   )
 }

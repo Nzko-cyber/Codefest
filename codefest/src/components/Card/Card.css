@@ -1,0 +1,73 @@
+.card_body {
+  width: 280px;
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e3e3e8;
+  border-radius: 6px;
+}
+
+.card_body:hover {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.card_image {
+  width: 80%;
+}
+
+.card_title {
+  width: 100%;
+  text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 0;
+
+  color: #1b1d1f;
+}
+
+.card_description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #1b1d1f;
+}
+
+.card_price {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 9px 9px;
+  gap: 10px;
+
+  background: rgba(89, 70, 215, 0.1);
+  border-radius: 4px;
+  color: #5946d7;
+
+  cursor: default;
+}
+
+.card_price:hover {
+  background: linear-gradient(0deg, #6b59cc, #6b59cc),
+    linear-gradient(0deg, #5946d7, #5946d7),
+    linear-gradient(0deg, #453888, #453888),
+    linear-gradient(0deg, #410f9e, #410f9e), #2e1066;
+  border-radius: 4px;
+  color: #ffffff;
+}
