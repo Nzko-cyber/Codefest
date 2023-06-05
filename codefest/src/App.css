@@ -1,0 +1,8 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.app{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
