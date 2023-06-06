@@ -6,9 +6,15 @@
     "cra-template": "1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "swiper": "^9.3.2"
+=======
+    "react-icons": "^4.9.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-scripts": "5.0.1"
+>>>>>>> 6786767ad9cd7e2e6ca96dd662494f5fdd790c70
   },
   "scripts": {
     "start": "react-scripts start",
