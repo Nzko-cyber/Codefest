@@ -1,0 +1,73 @@
+.Rec{
+    width: 100%;
+    background-color: red;
+    margin-top: 5%;
+    height: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x:scroll ;
+
+
+}
+.rec_card{
+    height: 220px;
+    padding: 3%;
+    min-width: 350px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, #DEDEE2, #aeaed9),
+    linear-gradient(0deg, #abb3e9, #abb5dc);
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+
+}
+.rec_card:first-child{
+    margin-right: 2%;
+}
+.rec_card:nth-child(2)
+{
+    margin-right: 2%;
+}
+.rec_desc{
+    width: 60%;
+    height: 100%;
+    font-size: 26px;
+    position: relative;
+    font-weight: 600;
+
+}
+.rec_desc span{
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    padding: 5% ;
+    height: auto;
+    font-size: 18px;
+    color: white;
+    background-color:#593897;
+    font-weight: 500;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+}
+.img_rec{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height:  12rem;
+    text-align: right;
+}
+@media (max-width:1024px) {
+    .rec_desc{
+        font-size: 24px;
+
+
+    }
+    
+}

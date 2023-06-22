@@ -13,6 +13,7 @@
     padding: 2% 4% 2% 4%;
     box-sizing: border-box;
     color: #2f2f2f;
+    bottom: 0px;
     background: linear-gradient(0deg, #2F2B4A, #2F2B4A),
         linear-gradient(0deg, #2F323D, #2F323D);
 

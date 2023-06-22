@@ -1,36 +1,45 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-
-import 'swiper/css'
-// import required modules
-import { Mousewheel, Pagination } from "swiper";
-
-export default function Banner() {
+import Carousel from 'react-bootstrap/Carousel';
+import img1 from '../../assets/images/Banner/banner.png'
+function UncontrolledExample() {
   return (
-    <>
-      <Swiper
-        direction={"vertical"}
-        slidesPerView={1}
-        spaceBetween={30}
-        mousewheel={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Mousewheel, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={img1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Orginal avtomoy 15% foiz chegirma </h3>
+          <p> Barcha chegirmalar 1 avgustgacha davom etadi</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={img1}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+        <h3>Orginal avtomoy 15% foiz chegirma </h3>
+          <p> Barcha chegirmalar 1 avgustgacha davom etadi</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={img1}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <h3>Orginal avtomoy 15% foiz chegirma </h3>
+          <p> Barcha chegirmalar 1 avgustgacha davom etadi</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
   );
 }
+
+export default UncontrolledExample;
