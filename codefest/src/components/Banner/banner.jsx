@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../assets/images/Banner/banner.png'
-function UncontrolledExample() {
+function Banner() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -42,4 +42,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Banner;

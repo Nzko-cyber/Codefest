@@ -7,7 +7,6 @@ import {FiSearch} from 'react-icons/fi'
 import { IconContext } from 'react-icons/lib'
 import logo from '../../assets/images/Navbar/logo.png' 
 import catalog from '../../assets/images/Navbar/catalog.svg'
-import {SlBasket} from 'react-icons/sl'
 function Navbar() {
   return (
     <>

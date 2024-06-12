@@ -3,7 +3,7 @@ import './Button.css'
 
 function Button() {
   return (
-    <div>Button</div>
+    <button id='bttn' type='button'>  button</button>
   )
 }
 
