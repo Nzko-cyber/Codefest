@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
-import Footer from '../Components/Footer/Footer'
-import {BrowserRouter, Route,Router,Routes} from 'react-router-dom'
+import Footer from '../components/Footer/Footer'
+import {BrowserRouter, Route,Routes} from 'react-router-dom'
 import Home from '../Pages/Home/Home'
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 import UserPage from '../Pages/UserPage/UserPage'
 
 export default function App() {

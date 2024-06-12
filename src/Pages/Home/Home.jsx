@@ -1,12 +1,14 @@
 import React from 'react'
-import Banner from '../../Components/Banner/banner'
-import Rec from '../../Components/Reccomend/Rec'
+import Banner from '../../components/Banner/banner'
+import Rec from '../../components/Reccomend/Rec'
+import Button from '../../components/Button/Button'
 import './Home.css'
 
 export default function Home() {
   return (
     <div className='home'>
       <Banner/>
+      <Button/>
       <Rec/>
 
 
