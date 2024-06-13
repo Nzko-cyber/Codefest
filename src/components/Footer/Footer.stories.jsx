@@ -1,7 +1,7 @@
 import Footer from './Footer';
 
 const meta = {
-  title: 'Example/Footer',
+  title: 'Components/Footer',
   component: Footer,
 };
 
