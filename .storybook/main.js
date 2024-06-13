@@ -4,6 +4,7 @@ const config = {
 
   addons: [
     "@storybook/preset-create-react-app",
+    "@storybook/addon-designs",
     "@storybook/addon-onboarding",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
