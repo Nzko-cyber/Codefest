@@ -6,7 +6,7 @@ import {expect} from "@storybook/jest";
 
 
 export default {
-    title: 'Button for pages',
+    title: 'Components/Button',
     component: Button,
     tags: ["autodocs"],
     
@@ -19,7 +19,6 @@ export const Primary = {
     },
   };
 
-
   Primary.play = async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const button = canvas.getByRole('button');
@@ -29,6 +28,13 @@ export const Primary = {
     await expect(button).toHaveStyle('background-color:#40d395f')
 
   };
+  // Default.play = async ({ canvasElement }) => {
+  //   const canvas = within(canvasElement);
+  //   const input = canvas.getByRole('textbox');
+  //   await userEvent.type(input, 'Hello, World!');
+  //   expect(input).toHaveValue('Hello, World!');
+  //   expect(canvas.getByText('Hello, World!')).toBeInTheDocument();
+  // };
 
 
 

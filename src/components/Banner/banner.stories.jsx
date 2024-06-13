@@ -1,7 +1,9 @@
 import Banner from './banner';
 
 const meta = {
-  component: Banner,
+  title: 'Components/Banner',
+    component: Banner,
+    tags: ["autodocs"],
 };
 
 export default meta;

@@ -1,13 +1,22 @@
 import React from 'react'
-import './Input.css'
+import { IconContext } from 'react-icons/lib'
+import {FiSearch} from 'react-icons/fi'
+import "../Navbar/Navbar.css"
 
- function Input() {
+export default function Input() {
   return (
-    <div>
+    <>
+      <div className='nav_input'>
 
-    <input id='input' type="text"  />
-    
-    </div>
+        <input type='search' placeholder='Search'></input>
+        <IconContext.Provider
+          value={{ color: 'blue', size: '34px' }}>
+          <FiSearch />
+
+        </IconContext.Provider>
+
+      </div>
+
+    </>
   )
 }
-export default Input

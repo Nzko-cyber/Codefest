@@ -4,6 +4,7 @@ import call from '../../assets/images/Navbar/call.png'
 import location from '../../assets/images/Navbar/fir.png'
 import profile from '../../assets/images/Navbar/per.png'
 import {FiSearch} from 'react-icons/fi'
+import Input from '../Input/Input'
 import { IconContext } from 'react-icons/lib'
 import logo from '../../assets/images/Navbar/logo.png' 
 import catalog from '../../assets/images/Navbar/catalog.svg'
@@ -16,16 +17,7 @@ function Navbar() {
 
 
      </div>
-     <div className='nav_input'>
-
-      <input type='search' placeholder='Search'></input>
-      <IconContext.Provider
-      value={{color:'blue',size:'34px'}}>
-      <FiSearch/>
-
-      </IconContext.Provider>
-      
-     </div>
+     <Input/>
      <div className='right_nav'>
       <img src={location} className='fir_img' alt="" />
        <img src={call} className='sec_img' alt="" />
