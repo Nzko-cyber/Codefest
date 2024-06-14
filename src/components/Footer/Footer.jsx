@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer__addr">
           <h1 className="footer__logo">Codefest</h1>
 
-          <h2>Location</h2>
+          {/* <h2>Location</h2> */}
 
           <address>
             <h2>Tashkent,Yunusobod, bodomzor kochasi</h2>

@@ -8,6 +8,7 @@ const config = {
     "@storybook/addon-onboarding",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    "../storybook-addon-loki/register.js",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-mdx-gfm",
